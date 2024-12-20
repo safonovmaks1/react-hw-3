@@ -1,0 +1,70 @@
+.app {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wrapper {
+	width: 320px;
+	padding: 1rem;
+	border-radius: 10px;
+	background-color: #302d4a;
+}
+
+.screen {
+	height: 70px;
+	width: 100%;
+	margin-bottom: 2rem;
+	padding: 0 10px;
+	background-color: #74b9f578;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	color: white;
+	font-weight: bold;
+	box-sizing: border-box;
+	font-size: 3rem;
+}
+
+.buttons {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+}
+
+button {
+	background: rgb(3, 129, 255);
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	padding: 15px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+button:hover {
+	background: #756eed;
+}
+
+button:nth-child(1),
+button:nth-child(2),
+button:nth-child(3) {
+	background: #ff5722;
+}
+
+button:nth-child(1):hover,
+button:nth-child(2):hover,
+button:nth-child(3):hover {
+	background: #e64a19;
+}
+
+button:last-child {
+	grid-column: 2 / 4;
+	background-color: rgb(243, 61, 29);
+}
+
+button:last-child:hover {
+	background-color: rgb(228, 39, 15);
+}

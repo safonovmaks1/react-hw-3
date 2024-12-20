@@ -1,1 +1,1 @@
-# react-hw-3
+# Задание 3 mini calculator
